@@ -55,7 +55,7 @@ describe("adding a pet", () => {
 
 //network intercepting
 //TDD
-//react testing libraryo
+//react testing library
 
 //why mock ?
 //Requests cost money
