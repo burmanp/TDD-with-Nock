@@ -41,7 +41,7 @@ describe("adding a pet", () => {
     // extend: respond to the second request with 'https://example.com/rupert'
     // act: all that stuff below
 
-    // console.log(scope);
+    
 
     // assert: find an image with an alt tag of "Fluffy", check it's source is 'https://example.com/fluffy'
     // extension: find an image with an alt tag of "Rupert", check it's source is 'https://example.com/rupert'
@@ -52,12 +52,3 @@ describe("adding a pet", () => {
     expect(fluffyImg).toHaveAttribute("src", "https://example.com/fluffy.png");
   });
 });
-
-//network intercepting
-//TDD
-//react testing library
-
-//why mock ?
-//Requests cost money
-//Requests can be slow
-//Testing is now dependent on something external.
